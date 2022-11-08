@@ -2,11 +2,11 @@ INSERT MANDATORY GIF
 
 # Naturally project
 
-A collaboration between various yrgo educations. 
+A collaboration between various yrgo educations. Computer graphics design, Digital design and Web development.
 
 # Installation
 
-installations instructions will go here. 
+installation instructions will go here. 
 
 # Testers
 
