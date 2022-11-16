@@ -1,3 +1,53 @@
-.förstaSection .andraSection {
-    color:black
+.presentationImage {
+    width: 100vw;
+}
+.companyName{
+    font-size: 2.3rem;
+}
+.companyVision{
+    font-size: 1.5rem;
+}
+.andraSidan{
+    display:flex;
+    flex-direction: column-reverse;
+}
+.clock-render{
+    width: 100vw;
+}
+.visionHeader{
+    font-size: 2rem;
+}
+.visionFiller{
+    font-size: 1rem;
+}
+.tredjeSidan{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+.the-kit {
+    width: 100vw;
+    margin-bottom: 0px;
+}
+.the-kit-heading{
+    font-size: 4rem;
+    position: absolute;
+    top: 2rem;
+    left: 2rem;
+    z-index: 1;
+}
+.the-kit-subheading{
+    font-size: 1rem;
+    position: absolute;
+    top: 6rem;
+    left: 2.3rem;
+    z-index: 1;
+}
+.call-to-action{
+    background-color: hotpink;
+    font-size: 1,5rem;
+    height: 3rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
