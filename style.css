@@ -51,3 +51,20 @@
     justify-content: center;
     align-items: center;
 }
+.till-hoeger{
+    display:none;
+}
+.section-four{
+    margin: 1rem;
+    margin-top:1rem;
+}
+.section-four h3{
+    font-size: 2rem;
+}
+.section-five{
+    display:flex;
+    flex-direction: column-reverse;
+}
+.clock-one{
+    display:none;
+}
