@@ -65,6 +65,13 @@
     display:flex;
     flex-direction: column-reverse;
 }
+
+.border-img{
+    width: 100vw;
+    height: 4rem;
+    object-fit: cover;
+}
+
 .clock-one{
     display:none;
 }
