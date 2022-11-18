@@ -1,34 +1,38 @@
-body{
-    height: 200vh;
+body {
+  height: 200vh;
 }
-.wrapper{
-    width: 100vw;
-    position: relative;
+.wrapper {
+  width: 100vw;
+  position: relative;
 }
 .scrollmenu {
-    
-    background-color: #333;
-    overflow: auto;
-    white-space: nowrap;
-    display: flex;
-    flex-direction: row;
-  }
+  background-color: #333;
+  overflow: auto;
+  white-space: nowrap;
+  display: flex;
+  flex-direction: row;
+  scroll-snap-type: x mandatory;
+}
 
-  .text-overlay{
-    position: absolute;
-    right: 0px;
-    padding: 1rem;
-    background: rgba(204, 204, 204, 0.5);
-  }
-  .text-overlay h2{
-    opacity: 100%;
-  }
-  
-  .scrollmenu a:hover {
-    background-color: #777;
-  }
+.text-overlay {
+  position: absolute;
+  right: 0px;
+  padding: 1rem;
+  background: rgba(204, 204, 204, 0.5);
+}
+.text-overlay h2 {
+  opacity: 100%;
+}
 
-  .scroll-img{
-    object-fit: cover;
-    width: 100vw;
-  }
+.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.scroll-img {
+  object-fit: cover;
+  width: 100vw;
+}
+
+.wrapper .scrollmenu .item-container {
+  scroll-snap-align: start;
+}

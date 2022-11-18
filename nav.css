@@ -6,6 +6,11 @@
 
 header {
   background-color: bisque;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  width: 100%;
+  z-index: 4;
 }
 
 li {
@@ -90,7 +95,6 @@ a {
     align-items: flex-start;
   }
 
-
   .nav-item {
     padding: 16px 0;
     width: 100%;
@@ -99,5 +103,4 @@ a {
   .nav-menu.active {
     left: 0;
   }
-  
 }

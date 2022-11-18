@@ -1,77 +1,132 @@
 .presentationImage {
-    width: 100vw;
+  width: 100vw;
 }
-.companyName{
-    font-size: 2.3rem;
+.companyName {
+  font-size: 2.3rem;
 }
-.companyVision{
-    font-size: 1.5rem;
+.companyVision {
+  font-size: 1.5rem;
 }
-.andraSidan{
-    display:flex;
-    flex-direction: column-reverse;
+.andraSidan {
+  display: flex;
+  flex-direction: column-reverse;
 }
-.clock-render{
-    width: 100vw;
+.clock-render {
+  width: 100vw;
 }
-.visionHeader{
-    font-size: 2rem;
+.visionHeader {
+  font-size: 2rem;
 }
-.visionFiller{
-    font-size: 1rem;
+.visionFiller {
+  font-size: 1rem;
 }
-.tredjeSidan{
-    position: relative;
-    display: flex;
-    flex-direction: column;
+.tredjeSidan {
+  position: relative;
+  display: flex;
+  flex-direction: column;
 }
 .the-kit {
-    width: 100vw;
-    margin-bottom: 0px;
+  width: 100vw;
+  margin-bottom: 0px;
 }
-.the-kit-heading{
-    font-size: 4rem;
-    position: absolute;
-    top: 2rem;
-    left: 2rem;
-    z-index: 1;
+.the-kit-heading {
+  font-size: 4rem;
+  position: absolute;
+  top: 2rem;
+  left: 2rem;
+  z-index: 1;
 }
-.the-kit-subheading{
-    font-size: 1rem;
-    position: absolute;
-    top: 6rem;
-    left: 2.3rem;
-    z-index: 1;
+.the-kit-subheading {
+  font-size: 1rem;
+  position: absolute;
+  top: 6rem;
+  left: 2.3rem;
+  z-index: 1;
 }
-.call-to-action{
-    background-color: hotpink;
-    font-size: 1,5rem;
-    height: 3rem;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.call-to-action {
+  background-color: hotpink;
+  font-size: 1, 5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
-.till-hoeger{
-    display:none;
+.till-hoeger {
+  display: none;
 }
-.section-four{
-    margin: 1rem;
-    margin-top:1rem;
+.section-four {
+  margin: 1rem;
+  margin-top: 1rem;
 }
-.section-four h3{
-    font-size: 2rem;
+.section-four h3 {
+  font-size: 2rem;
 }
-.section-five{
-    display:flex;
-    flex-direction: column-reverse;
-}
-
-.border-img{
-    width: 100vw;
-    height: 4rem;
-    object-fit: cover;
+.section-five {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
-.clock-one{
-    display:none;
+.border-img {
+  width: 100vw;
+  height: 4rem;
+  object-fit: cover;
+  margin: 0px;
+  padding: 0px;
+}
+
+.clock-one {
+  display: none;
+}
+
+/*scroll-new-watch*/
+
+.wrapper {
+  width: 100vw;
+  position: relative;
+  padding: 0px;
+  margin: 0px;
+}
+.scrollmenu {
+  overflow: auto;
+  display: flex;
+  flex-direction: row;
+  scroll-snap-type: x mandatory;
+}
+
+.text-overlay {
+  position: absolute;
+  right: 0px;
+  padding: 1rem;
+  background: rgba(204, 204, 204, 0.5);
+  margin-top: 0px;
+}
+
+.scrollmenu a:hover {
+  background-color: #777;
+}
+
+.scroll-img {
+  object-fit: cover;
+  width: 100vw;
+}
+
+.wrapper .scrollmenu .item-container {
+  scroll-snap-align: start;
+}
+
+/*kit-addition-section*/
+
+.kit-addition {
+  margin-top: 2rem;
+}
+.call-to-action-btn {
+  background-color: hotpink;
+  font-size: 1, 5rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-top: 2rem;
 }
