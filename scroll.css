@@ -6,6 +6,7 @@ body {
   position: relative;
 }
 .scrollmenu {
+  width: 100vw;
   background-color: #333;
   overflow: auto;
   display: flex;
@@ -50,10 +51,10 @@ body {
   width: 1rem;
   height: 1rem;
   background: #ccc;
-  border: 2px solid #999;
+  border: 2px solid black;
   border-radius: 50%;
   display: inline-block;
-  transition: 0.2s ease-out;
+  transition: 0.1s ease;
 }
 
 .indicators li:hover,
