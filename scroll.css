@@ -8,7 +8,6 @@ body {
 .scrollmenu {
   background-color: #333;
   overflow: auto;
-  white-space: nowrap;
   display: flex;
   flex-direction: row;
   scroll-snap-type: x mandatory;
@@ -35,4 +34,29 @@ body {
 
 .wrapper .scrollmenu .item-container {
   scroll-snap-align: start;
+}
+
+.indicators {
+  margin: 0px;
+  padding: 0px;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  width: 100vw;
+  margin-top: 0.5rem;
+}
+
+.indicators li {
+  width: 1rem;
+  height: 1rem;
+  background: #ccc;
+  border: 2px solid #999;
+  border-radius: 50%;
+  display: inline-block;
+  transition: 0.2s ease-out;
+}
+
+.indicators li:hover,
+.indicators li.selected {
+  transform: scale(1.3);
 }
