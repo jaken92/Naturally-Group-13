@@ -1,26 +1,26 @@
-.presentationImage {
+.presentation-image {
   width: 100vw;
 }
-.companyName {
+.company-name {
   font-size: 2.3rem;
 }
-.companyVision {
+.company-vision {
   font-size: 1.5rem;
 }
-.andraSidan {
+.section-two {
   display: flex;
   flex-direction: column-reverse;
 }
 .clock-render {
   width: 100vw;
 }
-.visionHeader {
+.vision-header {
   font-size: 2rem;
 }
-.visionFiller {
+.vision-text {
   font-size: 1rem;
 }
-.tredjeSidan {
+.section-three {
   position: relative;
   display: flex;
   flex-direction: column;
@@ -129,4 +129,35 @@
   align-items: center;
   width: 100vw;
   margin-top: 2rem;
+}
+
+.travel-guide-img {
+  object-fit: cover;
+  width: 100vw;
+}
+
+.checkers {
+  background-color: aliceblue;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+footer {
+  background-color: #777;
+  display: grid;
+  grid-template-columns: 0.5fr 0.8fr 1fr;
+}
+
+footer > div {
+  display: flex;
+  flex-direction: column;
+}
+
+footer > div > a:first-of-type {
+  font-size: larger;
+}
+
+footer > div > a {
+  line-height: 1.75rem;
 }
