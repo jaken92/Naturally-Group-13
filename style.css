@@ -12,7 +12,7 @@
 .section-one-right div {
   background-color: rgba(204, 204, 204, 0.5);
   padding: 1rem;
-  width: 65%;
+  display: inline-block;
 }
 .section-two {
   display: flex;
@@ -228,7 +228,7 @@ border-bottom: solid rgb(0, 0, 0);
   align-items: center;
   width: 100vw;
   margin-top: 2rem;
-    margin-bottom: 10rem;
+  margin-bottom: 10rem;
 }
 
 /*section seven */
