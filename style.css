@@ -25,15 +25,20 @@
   display: flex;
   flex-direction: column;
 }
+.heading-container{
+  position: absolute;
+  background-color: rgba(204, 204, 204, 0.5);
+  top: 0px;
+  left: 0px;
+  padding: 1rem;
+
+}
 .the-kit {
   width: 100vw;
   margin-bottom: 0px;
 }
 .the-kit-heading {
   font-size: 4rem;
-  position: absolute;
-  top: 2rem;
-  left: 2rem;
   z-index: 1;
 }
 .the-kit-subheading {
