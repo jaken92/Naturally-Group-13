@@ -136,6 +136,32 @@
   width: 100vw;
 }
 
+/*section seven */
+
+.section-seven article img {
+  width: 100vw;
+}
+
+.about-us-container {
+  text-align: left;
+  margin-bottom: 10rem;
+}
+
+.about-us-container h2{
+  padding: 1.5rem;
+}
+
+.about-us-container p{
+  padding: 1.5rem;
+}
+
+.border-line {
+  display: block;
+  height: 0.1 rem;
+  width: 100%;
+  background-color: black;
+}
+
 .checkers {
   background-color: aliceblue;
   display: grid;
