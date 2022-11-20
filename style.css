@@ -1,3 +1,14 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
+
+:root{    
+    font-family: 'Open Sans', 'Outfit', sans-serif;
+}
+
+h1,h2,h3,h4{
+    font-family: 'Outfit';
+}
+
 .presentation-image {
   width: 100vw;
 }
@@ -23,9 +34,12 @@
 }
 .vision-header {
   font-size: 2rem;
+  margin: 2rem 2rem 1rem 2rem;
 }
 .vision-text {
   font-size: 1rem;
+  margin: 2rem 2rem 4rem 2rem;
+
 }
 .section-three {
   position: relative;
