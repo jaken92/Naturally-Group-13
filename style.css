@@ -105,6 +105,7 @@ h4 {
   object-fit: cover;
   margin: 0px;
   padding: 0px;
+  display: block;
 }
 
 .clock-one {
@@ -113,9 +114,6 @@ h4 {
 
 /*scroll-new-watch*/
 
-body {
-  height: 200vh;
-}
 .wrapper {
   width: 100vw;
   position: relative;
