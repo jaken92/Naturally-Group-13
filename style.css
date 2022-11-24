@@ -48,6 +48,20 @@ h4 {
   font-size: 1rem;
   margin: 2rem 2rem 4rem 2rem;
 }
+/*section-materials*/
+
+.materials-img{
+  width:100vw;
+}
+.section-materials > h2, h3, p{
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.section-materials > span, img{
+  margin-bottom: 2rem;
+}
 .section-three {
   position: relative;
   display: flex;
