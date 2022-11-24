@@ -14,10 +14,13 @@ h4 {
   font-family: 'Outfit';
 }
 
+img {
+  object-fit: cover;
+}
+
 /*section-one presentation*/
 .section-one-left {
   margin-top: 65px;
-  height: 32rem;
 }
 .section-one-right {
   margin-top: 65px;
@@ -25,6 +28,8 @@ h4 {
 }
 .presentation-image {
   width: 100%;
+  display: block;
+  height: 32rem;
 }
 .company-name {
   font-size: 2.3rem;
@@ -34,6 +39,11 @@ h4 {
   font-size: 1.5rem;
   margin-top: 1rem;
   margin-left: 1rem;
+}
+
+.heading-box h2 {
+  display: flex;
+  justify-content: center;
 }
 
 .section-right-wrapper {
@@ -86,8 +96,7 @@ h4 {
   padding-right: 2rem;
 }
 
-.section-materials > span,
-img {
+.section-materials > span {
   margin-bottom: 2rem;
 }
 .section-three {
@@ -323,7 +332,7 @@ footer > div > a {
   line-height: 1.75rem;
 }
 
-@media screen and (min-width: 769px) {
+@media screen and (min-width: 768px) {
   .section-one {
     display: flex;
     flex-direction: row;
@@ -331,6 +340,13 @@ footer > div > a {
   }
   .section-one-left {
     width: 50%;
+    height: 61rem;
+  }
+
+  .presentation-image {
+    width: 100%;
+    display: block;
+    height: 61rem;
   }
 
   .section-one-right {
@@ -340,6 +356,7 @@ footer > div > a {
     justify-content: center;
     align-items: center;
     margin-top: 65px;
+    height: 61rem;
   }
 
   .section-right-wrapper {
