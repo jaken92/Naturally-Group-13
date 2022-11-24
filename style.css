@@ -15,9 +15,16 @@ h4 {
 }
 
 /*section-one presentation*/
+.section-one-left {
+  margin-top: 65px;
+  height: 32rem;
+}
+.section-one-right {
+  margin-top: 65px;
+  height: 32rem;
+}
 .presentation-image {
   width: 100%;
-  margin-top: 65px;
 }
 .company-name {
   font-size: 2.3rem;
@@ -29,10 +36,15 @@ h4 {
   margin-left: 1rem;
 }
 
-.section-one-right div {
+.section-right-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  width: 70%;
+}
+.section-right-wrapper div {
   background-color: rgba(204, 204, 204, 0.5);
   padding: 1rem;
-  display: inline-block;
   margin-top: 1rem;
   margin-left: 1rem;
 }
@@ -58,9 +70,17 @@ h4 {
 .materials-img {
   width: 100%;
 }
-.section-materials > h2,
-h3,
-p {
+.section-materials > h2 {
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.section-materials > h3 {
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+.section-materials > p {
   margin-bottom: 2rem;
   padding-left: 2rem;
   padding-right: 2rem;
@@ -182,7 +202,6 @@ img {
   filter: none;
 }
 
-
 /* TRAVEL GUIDE */
 
 .travel-guide-img {
@@ -222,7 +241,7 @@ img {
 }
 .input-container {
   display: flex;
-  width:100%;
+  width: 100%;
   margin: 0 1rem 0 1rem;
 }
 .travel-form input {
@@ -244,7 +263,7 @@ img {
   margin-bottom: 10rem;
 }
 
-/*section seven */
+/*section seven about-us */
 
 .section-seven article img {
   width: 100%;
@@ -305,7 +324,26 @@ footer > div > a {
 }
 
 @media screen and (min-width: 769px) {
-  .section-one{
+  .section-one {
     display: flex;
+    flex-direction: row;
+    justify-content: start;
+  }
+  .section-one-left {
+    width: 50%;
+  }
+
+  .section-one-right {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 65px;
+  }
+
+  .section-right-wrapper {
+    width: 60%;
+    background-color: white;
   }
 }
