@@ -1,0 +1,21 @@
+@media screen and (min-width: 769px) {
+    .checkers > div{
+        height: 600px;
+    }
+    .checkers > div > h3{
+        font-size: 89px;
+    }
+    .checkers > div > h2{
+        font-size: 89px;
+    }
+    
+    
+    
+    footer {
+        grid-template-columns: 0.35fr 0.35fr 1fr;
+    }  
+    footer > div {
+        margin: 40px 0% 40px 40px;
+    }
+
+    }
