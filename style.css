@@ -299,7 +299,6 @@ img {
 }
 
 .checkers {
-
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
@@ -340,13 +339,13 @@ footer > div > a {
   }
   .section-one-left {
     width: 50%;
-    height: 61rem;
+    height: 45rem;
   }
 
   .presentation-image {
     width: 100%;
     display: block;
-    height: 61rem;
+    height: 45rem;
   }
 
   .section-one-right {
@@ -356,7 +355,7 @@ footer > div > a {
     justify-content: center;
     align-items: center;
     margin-top: 65px;
-    height: 61rem;
+    height: 45rem;
   }
 
   .section-right-wrapper {
