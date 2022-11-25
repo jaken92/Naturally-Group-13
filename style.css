@@ -97,20 +97,10 @@ img {
   width: 100%;
   height: 24.5rem;
 }
-.materials-content > h2 {
-  margin-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.materials-content > h3 {
-  margin-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
-}
-.materials-content > p {
-  margin-bottom: 1rem;
-  padding-left: 1rem;
-  padding-right: 1rem;
+.section-materials > :is(h2, h3, p) {
+  margin-bottom: 2rem;
+  padding-left: 2rem;
+  padding-right: 2rem;
 }
 
 .materials-content > span {
@@ -291,7 +281,7 @@ img {
 
 /*section seven about-us */
 
-.section-seven article img {
+.section-seven:first-child img {
   width: 100%;
 }
 
@@ -300,36 +290,52 @@ img {
   margin-bottom: 10rem;
 }
 
-.about-us-container h2 {
+.about-us-container h3,
+p {
   padding: 1.5rem;
 }
 
-.about-us-container p {
-  padding: 1.5rem;
+.subcheckers {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
 }
-
-.border-line {
-  display: block;
-  height: 0.1rem;
-  width: 100%;
-  background-color: black;
-}
-
 .checkers {
   display: grid;
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
-.checkers > div {
-  border: 1px solid black;
-  position: relative;
+.checkers-gray {
+  background-color: #d9d9d9;
+}
+.subcheckers-gray {
   width: 100%;
-  padding-bottom: 40%;
+  height: 100%;
+}
+.checkers-black {
+  width: 100%;
+  height: 100%;
+  background-color: #535050;
+}
+.checkers > *:not(.subcheckers) {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  padding-top: 40%;
+}
+.checkers > div {
+  position: relative;
+  aspect-ratio: 1 / 1;
+}
+.checkers > div > h2,
+h3 {
+  font-size: 2rem;
+  font-weight: 600;
+}
+
+.checkers-logo {
+  object-fit: cover;
+  width: 80%;
 }
 
 footer {
