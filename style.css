@@ -63,14 +63,13 @@ img {
 .section-two {
   display: flex;
   flex-direction: column-reverse;
-
 }
 
-.our-vision{
+.our-vision {
   height: 32rem;
 }
 
-.right-of-vision{
+.right-of-vision {
   height: 32rem;
 }
 .clock-render {
@@ -324,7 +323,6 @@ img {
   justify-content: center;
   align-items: center;
   padding-top: 40%;
-  
 }
 
 footer {
@@ -376,5 +374,26 @@ footer > div > a {
   .section-right-wrapper {
     width: 60%;
     background-color: white;
+  }
+
+  /*section-two desktop*/
+
+  .section-two {
+    display: flex;
+    flex-direction: row;
+  }
+
+  .our-vision {
+    width: 50%;
+    height: 38.5rem;
+  }
+
+  .right-of-vision {
+    width: 50%;
+    height: 38.5rem;
+  }
+
+  .clock-render {
+    height: 38.5rem;
   }
 }
