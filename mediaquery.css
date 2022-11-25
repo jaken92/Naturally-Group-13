@@ -1,7 +1,5 @@
 @media screen and (min-width: 769px) {
-    .checkers > div{
-        height: 600px;
-    }
+
     .checkers > div > h3{
         font-size: 89px;
     }
