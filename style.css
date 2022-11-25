@@ -203,6 +203,7 @@ img {
 .travel-guide-img {
   object-fit: cover;
   width: 100%;
+  display: block;
 }
 .travel-question {
   font-size: 5rem;
