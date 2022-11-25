@@ -49,7 +49,7 @@ img {
 }
 .section-right-wrapper div {
   background-color: rgba(204, 204, 204, 0.5);
-  padding: 1rem;
+  padding: 0rem;
   margin-top: 1rem;
   margin-left: 1rem;
 }
@@ -78,8 +78,11 @@ img {
   font-size: 1rem;
   margin: 2rem 2rem 4rem 2rem;
 }
+
+/*materials-section*/
 .mat-img-container {
   height: 24.5rem;
+  width: 100%;
 }
 .materials-img {
   width: 100%;
@@ -93,6 +96,8 @@ img {
 .materials-content > span {
   margin-bottom: 1rem;
 }
+
+/*section-three*/
 .section-three {
   position: relative;
   display: flex;
@@ -260,9 +265,17 @@ img {
   text-align: left;
   margin-bottom: 10rem;
 }
-.about-us-container h3,
-p {
+
+.about-us-container > :is(h3, p) {
   padding: 1.5rem;
+}
+
+.section-seven {
+  width: 100%;
+}
+
+.section-seven article img {
+  width: 100%;
 }
 .subcheckers {
   display: grid;
@@ -346,7 +359,7 @@ footer > div > a {
     height: 45rem;
   }
   .section-right-wrapper {
-    width: 60%;
+    width: auto;
     background-color: white;
   }
   /*section-two desktop*/
@@ -354,15 +367,36 @@ footer > div > a {
     display: flex;
     flex-direction: row;
   }
+  /* 38.5 rem for squared height*/
   .our-vision {
     width: 50%;
-    height: 38.5rem;
+    height: 45rem;
   }
   .right-of-vision {
     width: 50%;
-    height: 38.5rem;
+    height: 45rem;
   }
   .clock-render {
-    height: 38.5rem;
+    height: 45rem;
+  }
+
+  /*Materials-section desktop*/
+
+  .section-materials {
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .mat-img-container {
+    height: 45rem;
+    width: 65%;
+  }
+  .materials-img {
+    height: 45rem;
+  }
+
+  .materials-content {
+    width: 35%;
+    height: 45rem;
   }
 }
