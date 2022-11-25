@@ -23,8 +23,7 @@ img {
   margin-top: 65px;
 }
 .section-one-right {
-  margin-top: 65px;
-  height: 32rem;
+  height: 24.5rem;
 }
 .presentation-image {
   width: 100%;
@@ -70,11 +69,11 @@ img {
 }
 
 .right-of-vision {
-  height: 32rem;
+  height: 24.5rem;
 }
 .clock-render {
   width: 100%;
-  height: 32rem;
+  height: 24.5rem;
   display: block;
 }
 .vision-header {
@@ -87,27 +86,35 @@ img {
 }
 /*section-materials*/
 
-.materials-img {
-  width: 100%;
-}
-.section-materials > h2 {
-  margin-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.section-materials > h3 {
-  margin-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
-}
-.section-materials > p {
-  margin-bottom: 2rem;
-  padding-left: 2rem;
-  padding-right: 2rem;
+.materials-content {
 }
 
-.section-materials > span {
-  margin-bottom: 2rem;
+.mat-img-container {
+  height: 24.5rem;
+}
+
+.materials-img {
+  width: 100%;
+  height: 24.5rem;
+}
+.materials-content > h2 {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.materials-content > h3 {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.materials-content > p {
+  margin-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+
+.materials-content > span {
+  margin-bottom: 1rem;
 }
 .section-three {
   position: relative;
