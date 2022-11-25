@@ -6,14 +6,12 @@
 :root {
   font-family: 'Open Sans', 'Outfit', sans-serif;
 }
-
 h1,
 h2,
 h3,
 h4 {
   font-family: 'Outfit';
 }
-
 img {
   object-fit: cover;
 }
@@ -39,12 +37,10 @@ img {
   margin-top: 1rem;
   margin-left: 1rem;
 }
-
 .heading-box h2 {
   display: flex;
   justify-content: center;
 }
-
 .section-right-wrapper {
   display: flex;
   flex-direction: column;
@@ -63,11 +59,9 @@ img {
   display: flex;
   flex-direction: column-reverse;
 }
-
 .our-vision {
   height: 32rem;
 }
-
 .right-of-vision {
   height: 24.5rem;
 }
@@ -84,15 +78,9 @@ img {
   font-size: 1rem;
   margin: 2rem 2rem 4rem 2rem;
 }
-/*section-materials*/
-
-.materials-content {
-}
-
 .mat-img-container {
   height: 24.5rem;
 }
-
 .materials-img {
   width: 100%;
   height: 24.5rem;
@@ -102,7 +90,6 @@ img {
   padding-left: 2rem;
   padding-right: 2rem;
 }
-
 .materials-content > span {
   margin-bottom: 1rem;
 }
@@ -156,7 +143,6 @@ img {
   flex-direction: column;
   text-align: center;
 }
-
 .border-img {
   width: 100%;
   height: 4rem;
@@ -165,22 +151,18 @@ img {
   padding: 0px;
   display: block;
 }
-
 .clock-one {
   display: none;
 }
-
 .scroll-img {
   object-fit: cover;
   width: 100%;
 }
-
 .wrapper .scrollmenu .item-container {
   scroll-snap-align: start;
 }
 
 /*kit-addition-section*/
-
 .kit-addition {
   margin-top: 2rem;
 }
@@ -194,13 +176,12 @@ img {
   width: 100%;
   margin-top: 2rem;
 }
-/* SHOP SECTION */
 
+/* SHOP SECTION */
 .shop-item img {
   display: block;
   max-width: 100%;
   max-height: 100%;
-  /* dim unselected */
   filter: saturate(0);
   -webkit-transform: scale(0.85);
   transform: scale(0.85);
@@ -219,27 +200,22 @@ img {
 }
 
 /* TRAVEL GUIDE */
-
 .travel-guide-img {
   object-fit: cover;
   width: 100%;
 }
-
 .travel-question {
   font-size: 5rem;
   position: absolute;
   margin-top: 1rem;
   margin-left: 1rem;
 }
-
 .travel-statement {
   margin: 1rem 0 1rem 2rem;
 }
-
 .travel-guide p {
   margin: 0 2rem 1rem 2rem;
 }
-
 .travel-form {
   display: flex;
   flex-direction: row;
@@ -266,7 +242,6 @@ img {
   border-bottom: thin solid #000;
   margin-bottom: 4px;
 }
-
 .travel-guide button {
   background-color: hotpink;
   font-size: 1, 5rem;
@@ -278,23 +253,17 @@ img {
   margin-top: 2rem;
   margin-bottom: 10rem;
 }
-
-/*section seven about-us */
-
 .section-seven:first-child img {
   width: 100%;
 }
-
 .about-us-container {
   text-align: left;
   margin-bottom: 10rem;
 }
-
 .about-us-container h3,
 p {
   padding: 1.5rem;
 }
-
 .subcheckers {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -332,27 +301,22 @@ h3 {
   font-size: 2rem;
   font-weight: 600;
 }
-
 .checkers-logo {
   object-fit: cover;
   width: 80%;
 }
-
 footer {
   background-color: #777;
   display: grid;
   grid-template-columns: 0.5fr 0.8fr 1fr;
 }
-
 footer > div {
   display: flex;
   flex-direction: column;
 }
-
 footer > div > a:first-of-type {
   font-size: larger;
 }
-
 footer > div > a {
   line-height: 1.75rem;
 }
@@ -367,13 +331,11 @@ footer > div > a {
     width: 50%;
     height: 45rem;
   }
-
   .presentation-image {
     width: 100%;
     display: block;
     height: 45rem;
   }
-
   .section-one-right {
     width: 50%;
     display: flex;
@@ -383,29 +345,23 @@ footer > div > a {
     margin-top: 65px;
     height: 45rem;
   }
-
   .section-right-wrapper {
     width: 60%;
     background-color: white;
   }
-
   /*section-two desktop*/
-
   .section-two {
     display: flex;
     flex-direction: row;
   }
-
   .our-vision {
     width: 50%;
     height: 38.5rem;
   }
-
   .right-of-vision {
     width: 50%;
     height: 38.5rem;
   }
-
   .clock-render {
     height: 38.5rem;
   }
