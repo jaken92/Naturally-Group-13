@@ -6,8 +6,22 @@
   h3 {
     font-size: 2.375rem;
   }
-
-  
+  .travel-guide {
+    display: grid;
+    grid-template-columns: 1fr 0.6fr;
+  }
+  .travel-guide :first-child {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .travel-guide :nth-child(2) {
+    display: grid;
+    grid-template-rows: 2fr 1fr 0.5fr 0.5fr;
+  }
+  .travel-guide button {
+    margin-bottom: 1rem;
+  }
   .section-seven {
     border-top: thin solid black;
     border-bottom: thin solid black;
