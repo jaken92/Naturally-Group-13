@@ -120,7 +120,7 @@ img {
   z-index: 1;
 }
 
-.call-to-action-btn {
+.call-to-action-btn-three {
   background-color: #818181;
   color: #fff;
   font-size: 2.375rem;
@@ -129,6 +129,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 100%;
+  padding: 2rem 2.5rem 2rem 2.5rem;
 }
 
 /*section four*/
@@ -176,6 +177,17 @@ img {
 
 .kit-addition {
   margin-top: 2rem;
+}
+
+.call-to-action-btn {
+  background-color: #818181;
+  color: #fff;
+  font-size: 2.375rem;
+  height: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
 }
 
 /* SHOP SECTION */
@@ -415,11 +427,11 @@ footer > div > a {
     width: 100%;
   }
 
-  .call-to-action-btn {
+  .call-to-action-btn-three {
     position: absolute;
     bottom: 2rem;
     right: 2rem;
-    width: 20%;
+    width: auto;
   }
 
   /* section four desktop - all u need in one place*/
