@@ -28,11 +28,6 @@ a {
   align-items: center;
   padding: 0 24px;
 }
-.right-nav {
-  display: flex;
-  gap: 60px;
-  align-items: center;
-}
 
 .nav-menu {
   display: flex;
@@ -42,8 +37,8 @@ a {
 }
 
 .nav-branding {
-  display: flex;
-  align-items: center;
+  font-size: 2rem;
+  color: white;
 }
 
 .nav-link {
@@ -106,9 +101,5 @@ a {
 
   .nav-menu.active {
     left: 0;
-  }
-
-  .right-nav {
-    gap: 30px;
   }
 }
