@@ -6,6 +6,38 @@
   h3 {
     font-size: 2.375rem;
   }
+  .kit-addition-desktop {
+    display: block;
+    margin: 4rem;
+  }
+  .kit-addition-mobile {
+    display: none;
+  }
+  .scrollmenu-mobile {
+    display: none;
+  }
+  .sweat-suit {
+    display: flex;
+  }
+  .item-container {
+    display: contents;
+  }
+  .text-overlay {
+    position: absolute;
+    background-color: #a9a9a980;
+    left: 0;
+    right: unset;
+    font-size: 3rem;
+  }
+  .call-to-action-btn-mobile {
+    display: none;
+  }
+  .call-to-action-btn {
+    position: absolute;
+    width: 20%;
+    height: 6%;
+    right: 0rem;
+  }
   .travel-guide {
     display: grid;
     grid-template-columns: 1fr 0.5fr;
