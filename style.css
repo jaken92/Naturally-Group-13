@@ -17,6 +17,13 @@ img {
   object-fit: cover;
 }
 
+/*links*/
+
+#subscribe {
+  position: absolute;
+  top: 4rem;
+}
+
 /*section-one presentation*/
 .section-one-left {
   margin-top: 65px;

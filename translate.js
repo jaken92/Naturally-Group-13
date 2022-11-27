@@ -1,11 +1,11 @@
-const se = document.querySelector('.se');
-const en = document.querySelector('.en');
+const swedish = document.querySelectorAll('.se');
+const english = document.querySelectorAll('.en');
 
 const langButton = document.querySelector('.lang-btn');
 
 langButton.addEventListener('click', langFunc);
 
 function langFunc() {
-  se.classList.toggle('hide');
-  en.classList.toggle('hide');
+  swedish.forEach((se) => se.classList.toggle('hide'));
+  english.forEach((en) => en.classList.toggle('hide'));
 }
