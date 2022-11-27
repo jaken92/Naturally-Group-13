@@ -65,7 +65,7 @@ a {
   margin: 5px;
   -webkit-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  background-color: white;
+  background-color: black;
 }
 
 @media (max-width: 768px) {
@@ -90,7 +90,7 @@ a {
     left: -100%;
     top: 65px;
     flex-direction: column;
-    background-color: bisque;
+    background-color: white;
     width: 100%;
     transition: 0.3s;
     text-align: center;
