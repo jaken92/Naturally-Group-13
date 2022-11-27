@@ -397,18 +397,23 @@ footer > div > a {
   }
 
   .mat-img-container {
-    height: 45rem;
-    width: 65%;
+    height: 65rem;
+    width: 70%;
   }
   .materials-img {
-    height: 45rem;
+    height: 70rem;
+    display: block;
   }
 
   .materials-content {
-    width: 35%;
-    height: 45rem;
+    width: 30%;
   }
-
+  .materials-content p {
+    margin: 2rem 20% 2rem 20%;
+  }
+  .section-materials :is(h2, h3) {
+    margin: 2rem 4rem 2rem 4rem;
+  }
   /*section three desktop the kit*/
 
   .section-three {
@@ -420,7 +425,11 @@ footer > div > a {
     left: 0px;
     top: auto;
   }
-
+  .bark-pattern {
+    width: 100%;
+    display: block;
+    height: 4rem;
+  }
   .the-kit {
     height: 36rem;
     width: 100%;

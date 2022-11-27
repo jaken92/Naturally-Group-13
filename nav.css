@@ -5,7 +5,6 @@
 }
 
 header {
-  background-color: bisque;
   position: fixed;
   top: 0px;
   left: 0px;
@@ -17,7 +16,7 @@ li {
 }
 
 a {
-  color: white;
+  color: black;
   text-decoration: none;
 }
 
