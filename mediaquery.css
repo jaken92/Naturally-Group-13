@@ -38,6 +38,24 @@
     height: 6%;
     right: 0rem;
   }
+  .shop-wrapper {
+    margin: 6rem 0;
+    display: grid;
+    grid-template-columns: 0.8fr 2fr;
+  }
+  .desktop-shop {
+    margin: 0rem 8rem;
+  }
+  .desktop-shop :is(p, h3) {
+    display: flex;
+    margin-top: 8rem;
+  }
+  .desktop-shop h3 {
+    background-color: #d0d0d0;
+  }
+  .click-mobile {
+    display: none;
+  }
   .travel-guide {
     display: grid;
     grid-template-columns: 1fr 0.5fr;

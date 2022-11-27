@@ -222,6 +222,9 @@ img {
 }
 
 /* SHOP SECTION */
+.desktop-shop :is(p, h3) {
+  display: none;
+}
 .shop-item img {
   display: block;
   max-width: 100%;
@@ -463,7 +466,7 @@ footer > div > a {
     top: auto;
   }
   .bark-pattern {
-    width: 100%;
+    width: -moz-available;
     display: block;
     height: 4rem;
   }
