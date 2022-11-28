@@ -19,9 +19,9 @@ img {
 
 /*links*/
 
-#subscribe {
+/* #subscribe {
 
-}
+} */
 
 /*section-one presentation*/
 .section-one-left {
@@ -245,6 +245,33 @@ img {
   -webkit-filter: none;
   filter: none;
 }
+.shop-item h2{
+  position: absolute;
+  z-index: 1;
+  background-color: #a9a9a980;
+  margin-top: 1.5rem;
+}
+.shop-item button{
+  position: absolute;
+  z-index: 1;
+  background-color: #818181;
+  right: 2rem;
+  bottom: 2rem;
+}
+
+/* Row 263 to 274 copy pasted from the internet. */
+.carousel:before{
+  content:"";
+  position:absolute;
+  left: 52px;
+  right: 52px;
+  top: 0px;
+  bottom: 0px;
+  border:5px solid black;
+  z-index:5;
+  pointer-events:none;
+  }
+  .carousel-control-next, .carousel-control-prev{z-index:6;}
 
 /* TRAVEL GUIDE */
 .travel-guide-img {
@@ -293,7 +320,7 @@ img {
 .travel-guide button {
   background-color: #818181;
   color: #fff;
-  font-size: 1, 5rem;
+  font-size: 1.5rem;
   height: 3rem;
   display: flex;
   justify-content: center;
