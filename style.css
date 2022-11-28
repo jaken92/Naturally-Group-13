@@ -24,10 +24,9 @@ img {
 } */
 
 /*section-one presentation*/
-.section-one-left {
-}
 .section-one-right {
   height: 24.5rem;
+  background-color: #fcefde;
 }
 .presentation-image {
   width: 100%;
@@ -36,25 +35,31 @@ img {
 }
 .company-name {
   font-size: 2.3rem;
-  color: white;
+  color: #3f3f3e;
+  font-weight: 200;
 }
 .company-vision {
-  font-size: 1.5rem;
+  font-size: 1.848rem;
   margin-top: 1rem;
   margin-left: 1rem;
+  font-weight: 200;
+  color: #3f3f3e;
 }
 .heading-box h2 {
   display: flex;
   justify-content: center;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  background-color: #fda188;
 }
 .section-right-wrapper {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
-  width: 70%;
+  width: 88%;
 }
 .section-right-wrapper div {
-  background-color: rgba(204, 204, 204, 0.5);
+  background-color: #fda188;
   padding: 0rem;
   margin-top: 1rem;
   margin-left: 1rem;
@@ -400,14 +405,15 @@ footer > div > a {
     flex-direction: row;
     justify-content: start;
   }
+  /*61.375rem*/
   .section-one-left {
     width: 50%;
-    height: 61.375rem;
+    height: 61rem;
   }
   .presentation-image {
     width: 100%;
     display: block;
-    height: 61.375rem;
+    height: 61rem;
   }
   .section-one-right {
     width: 50%;
@@ -415,10 +421,28 @@ footer > div > a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: 61.375rem;
+    height: 61rem;
   }
   .section-right-wrapper {
-    width: auto;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: unset;
+  }
+  .section-right-wrapper div {
+    margin-top: 0rem;
+    margin-left: 0rem;
+  }
+
+  .company-vision {
+    font-size: 3.158rem;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    font-weight: 100;
+  }
+
+  .company-name {
+    font-size: 5.61rem;
+    font-weight: 200;
   }
   /*section-two desktop*/
   .section-two {

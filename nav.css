@@ -49,13 +49,12 @@ a {
   transition: 0.2s ease;
 }
 
-.language-menu:hover{
-  color: #FDA188;
-
+.language-menu:hover {
+  color: #fda188;
 }
 
 .nav-link:hover {
-  color: #FDA188;
+  color: #fda188;
 }
 
 .hamburger {
@@ -100,6 +99,7 @@ a {
     text-align: center;
     gap: 0px;
     align-items: flex-start;
+    background-color: #fcefde;
   }
 
   .nav-item {
@@ -113,5 +113,9 @@ a {
 
   .right-nav {
     gap: 30px;
+  }
+
+  header {
+    background-color: #fcefde;
   }
 }
