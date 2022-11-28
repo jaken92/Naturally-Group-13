@@ -25,7 +25,7 @@ a {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 24px;
+  padding: 0 24px 0 7px;
 }
 .right-nav {
   display: flex;
@@ -49,8 +49,13 @@ a {
   transition: 0.2s ease;
 }
 
+.language-menu:hover{
+  color: #FDA188;
+
+}
+
 .nav-link:hover {
-  color: dodgerblue;
+  color: #FDA188;
 }
 
 .hamburger {
@@ -90,7 +95,6 @@ a {
     left: -100%;
     top: 65px;
     flex-direction: column;
-    background-color: white;
     width: 100%;
     transition: 0.3s;
     text-align: center;
