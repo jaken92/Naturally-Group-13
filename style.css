@@ -29,7 +29,6 @@ img {
   display: none;
 }
 
-
 /*section-one presentation*/
 .section-one-right {
   height: 24.5rem;
@@ -73,28 +72,31 @@ img {
 }
 
 /*section-two our vision*/
-.section-two {
-  display: flex;
-  flex-direction: column-reverse;
-}
-.our-vision {
-  height: 32rem;
-}
-.right-of-vision {
-  height: 24.5rem;
-}
-.clock-render {
+
+.backpack-img {
   width: 100%;
-  height: 24.5rem;
   display: block;
 }
-.vision-header {
-  font-size: 2rem;
-  margin: 2rem 2rem 1rem 2rem;
+
+.heading-box-two {
+  background-color: #fda188;
+  padding: 2rem 0rem 0.5rem 1.5rem;
 }
-.vision-text {
-  font-size: 1rem;
-  margin: 2rem 2rem 4rem 2rem;
+
+.heading-box-two h2 {
+  font-size: 3.158rem;
+  font-weight: 200;
+  color: #3f3f3e;
+}
+.text-box-two {
+  background-color: #fcefde;
+  padding: 1.5rem 1.5rem 1.5rem 1.5rem;
+}
+.text-box-two p {
+  color: #3f3f3e;
+  font-size: 1.125rem;
+  line-height: 150%;
+  font-weight: 400;
 }
 
 /*materials-section*/
@@ -452,28 +454,38 @@ footer > div > a {
     font-weight: 200;
   }
   /*section-two desktop*/
+
   .section-two {
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
+    height: 61.5rem;
   }
-  /* 38.5 rem for squared height*/
-  .our-vision {
-    width: 50%;
-    height: 45rem;
-  }
-  .our-vision h2 {
-    margin: 10rem 0 4rem 4rem;
-  }
-  .vision-text {
-    margin: 6rem 40% 0 4rem;
+  .backpack-img {
+    height: 61.5rem;
   }
   .right-of-vision {
     width: 50%;
-    height: 45rem;
   }
-  .clock-render {
-    height: 45rem;
+
+  .heading-box-two {
+    padding: 8rem 0rem 5rem 3.5rem;
   }
+
+  .heading-box-two h2 {
+    font-size: 5.61rem;
+    font-weight: 200;
+    color: #62706b;
+  }
+
+  .text-box-two {
+    padding: 8rem 3.5rem 5rem 3.5rem;
+  }
+
+  .our-vision {
+    width: 50%;
+    background-color: #fcefde;
+  }
+
 
   /*Materials-section desktop*/
 
