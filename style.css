@@ -122,12 +122,34 @@ img {
 .materials-img {
   width: 100%;
   height: 24.5rem;
+  display: block;
+  object-fit: cover;
 }
-.section-materials :is(h2, h3, p) {
-  margin: 2rem 2rem 2rem 2rem;
+
+.materials-content h2 {
+  font-weight: 200;
+  font-family: 'Outfit';
+  font-size: 3.158rem;
+  line-height: 3rem;
+  padding: 3rem 3rem 1.5rem 1rem;
 }
-.materials-content > span {
-  margin-bottom: 1rem;
+
+.materials-content h3 {
+  font-size: 2.369;
+  font-weight: 200;
+  font-family: 'Outfit';
+  line-height: 120%;
+}
+.materials-content p {
+  font-size: 1.125rem;
+  font-weight: 400;
+  font-family: 'Outfit';
+  line-height: 150%;
+}
+
+.section-materials :is(h3, p) {
+  margin: 1.5rem 1.5rem 1.5rem 1.5rem;
+  color: #3f3f3e;
 }
 
 /*section-three*/
@@ -511,25 +533,48 @@ footer > div > a {
   .section-materials {
     display: flex;
     flex-direction: row-reverse;
+    height: 61rem;
   }
 
   .mat-img-container {
-    height: 65rem;
-    width: 70%;
+    height: 61.5rem;
+    width: 64.5%;
   }
   .materials-img {
-    height: 70rem;
+    height: 61.5rem;
+    width: 100%;
     display: block;
   }
+  .materials-content h2 {
+    background-color: #ffcfc1;
+    font-size: 5.61rem;
+    font-family: 'Outfit';
+    font-weight: 200;
+    line-height: 5rem;
+    color: #3f3f3e;
+    padding: 2rem 3rem 3rem 2rem;
+  }
 
-  .materials-content {
-    width: 30%;
+  .materials-content h3 {
+    font-size: 2.369;
+    font-family: 'Outfit';
+    line-height: 120%;
+    font-weight: 200;
+    padding: 1rem 1rem 1rem 1rem;
   }
   .materials-content p {
-    margin: 2rem 20% 2rem 20%;
+    padding: 0rem 1rem 1rem 1rem;
   }
-  .section-materials :is(h2, h3) {
-    margin: 2rem 4rem 2rem 4rem;
+  .materials-content {
+    width: 35.5%;
+  }
+
+  .materials-content br {
+    display: none;
+  }
+
+  .section-materials :is(h2, h3, p) {
+    margin: 0rem;
   }
   /*section three desktop the kit*/
 
