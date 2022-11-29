@@ -23,6 +23,13 @@ img {
 
 } */
 
+/*language-function*/
+
+.hide {
+  display: none;
+}
+
+
 /*section-one presentation*/
 .section-one-right {
   height: 24.5rem;
