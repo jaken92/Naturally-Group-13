@@ -101,6 +101,7 @@ img {
   font-size: 3.158rem;
   font-weight: 200;
   color: #3f3f3e;
+  font-family: 'Outfit';
 }
 .text-box-two {
   background-color: #fcefde;
@@ -493,7 +494,7 @@ footer > div > a {
     font-size: 5.61rem;
     font-weight: 200;
     color: #62706b;
-    font-family: 'outfit';
+    font-family: 'Outfit';
   }
 
   .text-box-two {
