@@ -1,5 +1,4 @@
 /*general*/
-
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
 @font-face {
   font-family: 'Outfit Extralight';
@@ -15,8 +14,10 @@
   font-family: 'Open Sans', 'Outfit', sans-serif;
   font-size: 1.125rem;
   --button-color: #518c77;
+  --footer-color: #659987;
   --main-color: #fcefde;
   --secondary-color: #ffcfc1;
+  --text-color: #3f3f3e;
 }
 body {
   background-color: var(--main-color);
@@ -27,6 +28,7 @@ h3,
 h4,
 button {
   font-family: 'Outfit Extralight';
+  color: var(--text-color);
 }
 img {
   object-fit: cover;
@@ -34,11 +36,6 @@ img {
 
 /*links*/
 
-/* #subscribe {
-
-} */
-
-/*language-function*/
 .hide {
   display: none;
 }
@@ -101,7 +98,6 @@ img {
   font-size: 3.158rem;
   font-weight: 200;
   color: #3f3f3e;
-  font-family: 'Outfit';
 }
 .text-box-two {
   background-color: #fcefde;
@@ -403,18 +399,6 @@ img {
   grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
-.checkers-gray {
-  background-color: #d9d9d9;
-}
-.subcheckers-gray {
-  width: 100%;
-  height: 100%;
-}
-.checkers-black {
-  width: 100%;
-  height: 100%;
-  background-color: #535050;
-}
 .checkers > *:not(.subcheckers) {
   display: flex;
   flex-direction: column;
@@ -429,12 +413,13 @@ img {
 h3 {
   font-size: 2rem;
 }
-.checkers-logo {
+.checkers > div img {
   object-fit: cover;
-  width: 80%;
+  width: 100%;
+  display: block;
 }
 footer {
-  background-color: #518c77;
+  background-color: var(--footer-color);
   display: grid;
   grid-template-columns: 0.5fr 0.8fr 1fr;
 }
@@ -516,7 +501,6 @@ footer > div > a {
     font-size: 5.61rem;
     font-weight: 200;
     color: #62706b;
-    font-family: 'Outfit';
   }
 
   .text-box-two {
