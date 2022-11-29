@@ -1,17 +1,33 @@
 /*general*/
 
-@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100;200;300;400;500;600;700;800;900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,400;0,500;0,600;0,700;0,800;1,300;1,400;1,500;1,600;1,700;1,800&display=swap');
-
+@font-face {
+  font-family: 'Outfit Extralight';
+  font-weight: 200;
+  src: url(fonts/Outfit-ExtraLight.woff);
+}
+@font-face {
+  font-family: 'Outfit Regular';
+  font-weight: 400;
+  src: url(fonts/Outfit-Regular.woff);
+}
 :root {
   font-family: 'Open Sans', 'Outfit', sans-serif;
+  font-size: 1.125rem;
+  --button-color: #518C77;
+  --main-color: #FCEFDE;
+  --secondary-color: #FFCFC1;
+
+}
+body{
+  background-color: var(--main-color);
 }
 h1,
 h2,
 h3,
 h4,
 button {
-  font-family: 'Outfit';
+  font-family: 'Outfit Extralight';
 }
 img {
   object-fit: cover;
@@ -24,7 +40,6 @@ img {
 } */
 
 /*language-function*/
-
 .hide {
   display: none;
 }
@@ -161,7 +176,7 @@ img {
 .bark-pattern {
   width: 100%;
   display: block;
-  height: 4rem;
+  height: 8rem;
 }
 .the-kit-offer {
   margin: 2rem 2rem 0 2rem;
@@ -295,24 +310,42 @@ img {
   margin: 0 2rem 1rem 2rem;
 }
 .travel-form {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  margin-bottom: 1rem;
+  display: grid;
+  grid-template-columns: 25% 1fr;
   border-top: solid rgb(0, 0, 0);
   border-bottom: solid rgb(0, 0, 0);
+  background-color: var(--secondary-color);
 }
 .label-container {
-  background: rgb(201, 200, 200);
+  background: var(--secondary-color);
+  width: 100%;
 }
 .travel-form label {
+  background-color: var(--button-color);
+  color: #fff;
   font-size: 2rem;
-  margin: 0 1rem 0 1rem;
+  width: 100%;
 }
 .input-container {
   display: flex;
   width: 100%;
-  margin: 0 1rem 0 1rem;
+}
+.bakgrundsferg{
+  background-color: var(--secondary-color);
+  border-top:2px solid black;
+  border-bottom:2px solid black;
+  display: flex;
+  flex-direction: column;
+}
+.share {
+  display: flex;
+  flex-direction: row;
+}
+.center{
+  display: block;
+}
+.greene{
+  background-color: var(--button-color);
 }
 .travel-form input {
   all: unset;
@@ -321,16 +354,11 @@ img {
   margin-bottom: 4px;
 }
 .travel-guide button {
-  background-color: #818181;
-  color: #fff;
+  background-color: #518C77;
+  color: #FFCFC1;
   font-size: 1.5rem;
   height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
   margin-top: 2rem;
-  margin-bottom: 10rem;
 }
 .section-seven:first-child img {
   width: 100%;
@@ -342,14 +370,6 @@ img {
 
 .about-us-container > :is(h3, p) {
   padding: 1.5rem;
-}
-
-.section-seven {
-  width: 100%;
-}
-
-.section-seven article img {
-  width: 100%;
 }
 .subcheckers {
   display: grid;
@@ -386,7 +406,6 @@ img {
 .checkers > div > h2,
 h3 {
   font-size: 2rem;
-  font-weight: 600;
 }
 .checkers-logo {
   object-fit: cover;

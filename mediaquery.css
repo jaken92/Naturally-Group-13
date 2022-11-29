@@ -1,10 +1,9 @@
 @media screen and (min-width: 769px) {
   h2 {
     font-size: 5.625rem !important;
-    font-weight: 600;
   }
   h3 {
-    font-size: 2.375rem;
+    font-size: 3.125rem;
   }
   .kit-addition-desktop {
     display: block;
@@ -58,15 +57,12 @@
   }
   .travel-guide {
     display: grid;
-    grid-template-columns: 1fr 0.5fr;
+    grid-template-columns: 2fr 1fr;
   }
-  .travel-guide :first-child {
+  .travel-question {
     display: flex;
     align-items: center;
     justify-content: center;
-  }
-  .travel-guide button {
-    margin-bottom: 1rem;
   }
   .travel-two {
     display: flex;
@@ -75,50 +71,36 @@
   .travel-two h3 {
     margin-top: 60%;
   }
-  .travel-two :is(p, button) {
+  .travel-two p {
     width: 50%;
     align-self: center;
     margin-top: 5%;
-  }
-  .travel-two form {
-    margin-top: 80%;
-  }
-  .travel-two button {
-    font-size: 2.375rem;
-  }
-  .travel-guide form {
-    height: 3rem;
   }
   .input-container {
     display: flex;
     align-items: flex-end;
   }
-  .section-seven {
-    border-top: thin solid black;
-    border-bottom: thin solid black;
-    display: grid;
-    grid-template-columns: 0.6fr 2fr;
-  }
 
   .about-us-container {
-    border-left: thin solid black;
+    margin: 4rem 10rem 4rem 10rem;
+    text-align: center;
     height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 0;
   }
   .about-us-container p {
     width: 45%;
     font-size: 1.125rem;
   }
-  .section-seven img {
-    width: 100%;
-    display: block;
-  }
   .section-seven hr {
     display: none;
+  }
+  .adventure{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr;
   }
   footer {
     grid-template-columns: 0.32fr 0.37fr 1fr;
