@@ -14,12 +14,11 @@
 :root {
   font-family: 'Open Sans', 'Outfit', sans-serif;
   font-size: 1.125rem;
-  --button-color: #518C77;
-  --main-color: #FCEFDE;
-  --secondary-color: #FFCFC1;
-
+  --button-color: #518c77;
+  --main-color: #fcefde;
+  --secondary-color: #ffcfc1;
 }
-body{
+body {
   background-color: var(--main-color);
 }
 h1,
@@ -330,10 +329,10 @@ img {
   display: flex;
   width: 100%;
 }
-.bakgrundsferg{
+.bakgrundsferg {
   background-color: var(--secondary-color);
-  border-top:2px solid black;
-  border-bottom:2px solid black;
+  border-top: 2px solid black;
+  border-bottom: 2px solid black;
   display: flex;
   flex-direction: column;
 }
@@ -341,10 +340,10 @@ img {
   display: flex;
   flex-direction: row;
 }
-.center{
+.center {
   display: block;
 }
-.greene{
+.greene {
   background-color: var(--button-color);
 }
 .travel-form input {
@@ -354,8 +353,8 @@ img {
   margin-bottom: 4px;
 }
 .travel-guide button {
-  background-color: #518C77;
-  color: #FFCFC1;
+  background-color: #518c77;
+  color: #ffcfc1;
   font-size: 1.5rem;
   height: 3rem;
   margin-top: 2rem;
@@ -494,6 +493,7 @@ footer > div > a {
     font-size: 5.61rem;
     font-weight: 200;
     color: #62706b;
+    font-family: 'outfit';
   }
 
   .text-box-two {
@@ -504,7 +504,6 @@ footer > div > a {
     width: 50%;
     background-color: #fcefde;
   }
-
 
   /*Materials-section desktop*/
 
