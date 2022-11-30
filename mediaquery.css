@@ -5,6 +5,9 @@
   h3 {
     font-size: 3.125rem;
   }
+  .bark-pattern {
+    height: 6em;
+  }
   .kit-addition-desktop {
     display: block;
     margin: 4rem;
@@ -80,7 +83,7 @@
     margin-top: 8rem;
   }
   .desktop-shop h3 {
-    background-color: #d0d0d0;
+    background-color: var(--color-primary);
   }
   .click-mobile {
     display: none;
@@ -99,12 +102,13 @@
   .travel-question {
     position: absolute;
     z-index: 1;
-    background-color: #556f64;
-    color: #fda188;
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
     left: 8%;
     top: 30%;
     right: 50%;
-    opacity: 0.8;
+    opacity: 0.9;
+    margin: unset;
   }
   .travel-two {
     display: flex;
@@ -126,11 +130,6 @@
     align-items: flex-end;
   }
   .travel-guide button {
-    background-color: #518c77;
-    color: #ffcfc1;
-    font-size: 1.5rem;
-    height: 3rem;
-    margin-top: 2rem;
     width: 80%;
     margin-left: 10%;
   }
@@ -155,10 +154,31 @@
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr;
   }
+  .subcheckers :not(:first-child) {
+    display: unset;
+  }
+  .subcheckers {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+  }
   footer {
-    grid-template-columns: 0.32fr 0.37fr 1fr;
+    display: grid;
+    grid-template-columns: 1fr 1fr 3fr;
+  }
+  footer > div > a:first-of-type {
+    font-size: 1rem;
+    font-weight: bold;
+  }
+  footer > div:first-of-type {
+    margin-top: unset;
   }
   footer > div {
-    margin: 40px 0% 40px 40px;
+    margin-left: 10%;
+    padding-top: 5%;
+  }
+  .footer-third-column {
+    padding-top: unset;
+    padding-top: 2%;
   }
 }
