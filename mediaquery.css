@@ -56,23 +56,34 @@
     display: none;
   }
   .travel-guide {
+    position: relative;
     display: grid;
     grid-template-columns: 2fr 1fr;
   }
+  .travel-guide video {
+    position: relative;
+    z-index: 0;
+    object-fit: cover;
+    width: 100%;
+  }
   .travel-question {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    position: absolute;
+    z-index: 1;
+    background-color: #556f64;
+    color: #fda188;
   }
   .travel-two {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
   }
   .travel-two h3 {
-    margin-top: 60%;
+    margin-top: 10%;
+    width: 60%;
+    align-self: center;
   }
   .travel-two p {
-    width: 50%;
+    width: 60%;
     align-self: center;
     margin-top: 5%;
   }
@@ -80,7 +91,15 @@
     display: flex;
     align-items: flex-end;
   }
-
+  .travel-guide button {
+    background-color: #518c77;
+    color: #ffcfc1;
+    font-size: 1.5rem;
+    height: 3rem;
+    margin-top: 2rem;
+    width: 80%;
+    margin-left: 10%;
+  }
   .about-us-container {
     margin: 4rem 10rem 4rem 10rem;
     text-align: center;

@@ -13,14 +13,18 @@
 :root {
   font-family: 'Open Sans', 'Outfit', sans-serif;
   font-size: 1.125rem;
-  --button-color: #518c77;
+  --color-background: #fcefde;
+  --color-primary: #fda188;
+  --color-alt-primary: #ffcfc1;
+  --color-secondary: #62706b;
+  --color-tertiary: #74a392;
+  --color-black: #393938;
+  --color-white: #ffedea;
+  --color-button: #74a392;
   --footer-color: #659987;
-  --main-color: #fcefde;
-  --secondary-color: #ffcfc1;
-  --text-color: #3f3f3e;
 }
 body {
-  background-color: var(--main-color);
+  background-color: var(--color-background);
 }
 h1,
 h2,
@@ -28,7 +32,7 @@ h3,
 h4,
 button {
   font-family: 'Outfit Extralight';
-  color: var(--text-color);
+  color: var(--color-black);
 }
 img {
   object-fit: cover;
@@ -194,7 +198,7 @@ img {
 .bark-pattern {
   width: 100%;
   display: block;
-  height: 8rem;
+  height: 6rem;
 }
 .the-kit-offer {
   margin: 2rem 2rem 0 2rem;
@@ -310,7 +314,7 @@ img {
 }
 
 /* TRAVEL GUIDE */
-.travel-guide-img {
+.travel-guide video {
   object-fit: cover;
   width: 100%;
   display: block;
@@ -327,49 +331,42 @@ img {
 .travel-guide p {
   margin: 0 2rem 1rem 2rem;
 }
-.travel-form {
-  display: grid;
-  grid-template-columns: 25% 1fr;
-  border-top: solid rgb(0, 0, 0);
-  border-bottom: solid rgb(0, 0, 0);
-  background-color: var(--secondary-color);
-}
 .label-container {
-  background: var(--secondary-color);
-  width: 100%;
-}
-.travel-form label {
-  background-color: var(--button-color);
-  color: #fff;
-  font-size: 2rem;
+  background: var(--color-alt-primary);
   width: 100%;
 }
 .input-container {
   display: flex;
   width: 100%;
 }
-.bakgrundsferg {
-  background-color: var(--secondary-color);
+.travel-form {
+  background-color: var(--color-alt-primary);
   border-top: 2px solid black;
   border-bottom: 2px solid black;
   display: flex;
   flex-direction: column;
+  bottom: 0px;
 }
 .share {
   display: flex;
   flex-direction: row;
+  font-size: 1.825rem;
 }
-.center {
-  display: block;
-}
-.greene {
-  background-color: var(--button-color);
-}
-.travel-form input {
-  all: unset;
+.share input {
   width: 100%;
-  border-bottom: thin solid #000;
-  margin-bottom: 4px;
+  background-color: var(--color-alt-primary);
+  border-bottom: double black;
+  font-size: 1.825rem;
+}
+.travel-label {
+  background-color: var(--color-button);
+  width: 30%;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--color-alt-primary);
+  font-size: larger;
 }
 .travel-guide button {
   background-color: #518c77;
@@ -377,6 +374,7 @@ img {
   font-size: 1.5rem;
   height: 3rem;
   margin-top: 2rem;
+  width: 100%;
 }
 .section-seven:first-child img {
   width: 100%;
