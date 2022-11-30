@@ -28,12 +28,33 @@
     right: unset;
     font-size: 3rem;
   }
-  .carousel {
+  .carousel-wrapper {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     border-top: 2px solid var(--color-black);
-    border-bottom: 2px solid var(--color-black);
+  }
+  .carousel {
+    background-color: var(--color-background);
+    align-self: center;
+    width: 80%;
+    border: 2px solid var(--color-black);
   }
   .call-to-action-btn-mobile {
     display: none;
+  }
+  .flickity-prev-next-button {
+    top: 105% !important;
+  }
+  .flickity-page-dots {
+    bottom: -40px !important;
+  }
+  .flickity-page-dots .dot {
+    width: 20px !important;
+    height: 20px !important;
+    background: var(--color-white) !important;
+    bottom: 5px !important;
   }
   .call-to-action-btn {
     position: absolute;
