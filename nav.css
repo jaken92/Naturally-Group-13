@@ -49,18 +49,17 @@ a {
   transition: 0.2s ease;
 }
 
-.lang-btn{
+.lang-btn {
   background: none;
-	color: inherit;
-	border: none;
-	padding: 0;
-	font: inherit;
-	cursor: pointer;
-	outline: inherit;
-  
+  color: inherit;
+  border: none;
+  padding: 0;
+  font: inherit;
+  cursor: pointer;
+  outline: inherit;
 }
 
-.lang-btn:hover{
+.lang-btn:hover {
   color: #fda188;
 }
 

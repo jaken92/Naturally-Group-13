@@ -4,11 +4,13 @@
   font-family: 'Outfit Extralight';
   font-weight: 200;
   src: url(fonts/Outfit-ExtraLight.woff);
+  src: url(fonts/Outfit-ExtraLight.woff2);
 }
 @font-face {
   font-family: 'Outfit Regular';
   font-weight: 400;
   src: url(fonts/Outfit-Regular.woff);
+  src: url(fonts/Outfit-Regular.woff2);
 }
 :root {
   font-family: 'Open Sans', 'Outfit', sans-serif;
@@ -217,7 +219,7 @@ img {
 .bark-pattern {
   width: 100%;
   display: block;
-  height: 6rem;
+  height: 4rem;
 }
 .the-kit-offer {
   margin: 2rem 2rem 0 2rem;
@@ -318,6 +320,9 @@ img {
   -webkit-filter: none;
   filter: none;
 }
+.click-mobile {
+  background-color: var(--color-primary);
+}
 .shop-item h2 {
   position: absolute;
   z-index: 1;
@@ -333,16 +338,26 @@ img {
 }
 
 /* TRAVEL GUIDE */
+.travel-guide {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
 .travel-guide video {
+  position: relative;
   object-fit: cover;
   width: 100%;
   display: block;
+  z-index: 0;
 }
 .travel-question {
-  font-size: 5rem;
+  background-color: var(--color-secondary);
+  color: var(--color-primary);
+  opacity: 0.9;
   position: absolute;
-  margin-top: 1rem;
-  margin-left: 1rem;
+  font-size: 2rem;
+  margin: 10%;
+  margin-top: 15%;
 }
 .travel-statement {
   margin: 1rem 0 1rem 2rem;
@@ -378,18 +393,18 @@ img {
   font-size: 1.825rem;
 }
 .travel-label {
-  background-color: var(--color-button);
+  background-color: var(--color-secondary);
   width: 30%;
   height: 3rem;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: var(--color-alt-primary);
+  color: var(--color-white);
   font-size: larger;
 }
 .travel-guide button {
   background-color: #518c77;
-  color: #ffcfc1;
+  color: var(--color-white);
   font-size: 1.5rem;
   height: 3rem;
   margin-top: 2rem;
@@ -406,10 +421,8 @@ img {
 .about-us-container > :is(h3, p) {
   padding: 1.5rem;
 }
-.subcheckers {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  grid-template-rows: 1fr 1fr;
+.subcheckers :not(:first-child) {
+  display: none;
 }
 .checkers {
   display: grid;
@@ -437,18 +450,23 @@ img {
 }
 footer {
   background-color: var(--footer-color);
-  display: grid;
-  grid-template-columns: 0.5fr 0.8fr 1fr;
+  display: flex;
+  flex-direction: column;
+  line-height: 2rem;
 }
 footer > div {
+  margin-left: 5%;
   display: flex;
   flex-direction: column;
 }
 footer > div > a:first-of-type {
-  font-size: larger;
+  font-size: 2rem;
 }
-footer > div > a {
-  line-height: 1.75rem;
+footer > div > a:last-of-type {
+  margin-bottom: 2rem;
+}
+footer > div:first-of-type {
+  margin-top: 5%;
 }
 
 @media screen and (min-width: 768px) {
