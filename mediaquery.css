@@ -28,8 +28,33 @@
     right: unset;
     font-size: 3rem;
   }
+  .carousel-wrapper {
+    background-color: var(--color-secondary);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    border-top: 2px solid var(--color-black);
+  }
+  .carousel {
+    background-color: var(--color-background);
+    align-self: center;
+    width: 80%;
+    border: 2px solid var(--color-black);
+  }
   .call-to-action-btn-mobile {
     display: none;
+  }
+  .flickity-prev-next-button {
+    top: 105% !important;
+  }
+  .flickity-page-dots {
+    bottom: -40px !important;
+  }
+  .flickity-page-dots .dot {
+    width: 20px !important;
+    height: 20px !important;
+    background: var(--color-white) !important;
+    bottom: 5px !important;
   }
   .call-to-action-btn {
     position: absolute;
@@ -38,12 +63,17 @@
     right: 0rem;
   }
   .shop-wrapper {
-    margin: 6rem 0;
     display: grid;
-    grid-template-columns: 0.8fr 2fr;
+    grid-template-columns: 1fr 2fr;
   }
   .desktop-shop {
-    margin: 0rem 8rem;
+    border: 2px solid var(--color-black);
+  }
+  .flex-h2 {
+    border-bottom: 2px solid var(--color-black);
+    display: grid;
+    padding-bottom: 15%;
+    padding-left: 10%;
   }
   .desktop-shop :is(p, h3) {
     display: flex;
