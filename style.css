@@ -447,11 +447,14 @@ footer > div > a {
   .section-one-left {
     width: 50%;
     height: 61rem;
+    border-right: 1px solid black;
+    border-left: 0px;
   }
   .presentation-image {
     width: 100%;
     display: block;
     height: 61rem;
+    border-bottom: 1px solid black;
   }
   .section-one-right {
     width: 50%;
@@ -460,6 +463,8 @@ footer > div > a {
     justify-content: center;
     align-items: center;
     height: 61rem;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
   }
   .section-right-wrapper {
     margin-left: 10%;
@@ -491,13 +496,18 @@ footer > div > a {
   }
   .backpack-img {
     height: 61.5rem;
+    border-bottom: 2px solid black;
   }
   .right-of-vision {
     width: 50%;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
   }
 
   .heading-box-two {
     padding: 8rem 0rem 5rem 3.5rem;
+    border-bottom: 1px solid black;
   }
 
   .heading-box-two h2 {
@@ -513,6 +523,9 @@ footer > div > a {
   .our-vision {
     width: 50%;
     background-color: #fcefde;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
   }
 
   /*Materials-section desktop*/
@@ -526,6 +539,9 @@ footer > div > a {
   .mat-img-container {
     height: 61.5rem;
     width: 64.5%;
+    border-top: 1px solid black;
+    border-left: 1px solid black;
+    border-bottom: 1px solid black;
   }
   .materials-img {
     height: 61.5rem;
@@ -540,6 +556,7 @@ footer > div > a {
     line-height: 5rem;
     color: #3f3f3e;
     padding: 2rem 3rem 3rem 2rem;
+    border-bottom: 2px solid black;
   }
 
   .materials-content h3 {
@@ -551,9 +568,13 @@ footer > div > a {
   }
   .materials-content p {
     padding: 0rem 1rem 1rem 1rem;
+    border-bottom: 2px solid black;
   }
   .materials-content {
     width: 35.5%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    border-top: 1px solid black;
   }
 
   .materials-content br {
