@@ -174,10 +174,10 @@ img {
 }
 .heading-container {
   position: absolute;
-  background-color: rgba(204, 204, 204, 0.5);
+  background-color: rgba(98, 112, 107, 0.5);
   top: 0px;
   left: 0px;
-  padding: 1rem;
+  padding: 0rem 1rem 0rem 1rem;
 }
 .the-kit {
   width: 100%;
@@ -186,20 +186,25 @@ img {
   height: 26.6rem;
 }
 .the-kit-heading {
-  font-size: 4rem;
+  font-size: 3.158rem;
   z-index: 1;
+  font-family: 'Outfit Extralight';
+  font-weight: 200;
+  color: var(--color-white);
 }
 
 .call-to-action-btn-three {
-  background-color: #818181;
-  color: #fff;
-  font-size: 2.375rem;
+  background-color: #518c77;
+  color: #ffcfc1;
+  font-size: 1.848rem;
   height: 3rem;
   display: flex;
   justify-content: center;
   align-items: center;
   width: 100%;
   padding: 2rem 2.5rem 2rem 2.5rem;
+  border: none;
+  font-family: 'Outfit ExtraLight';
 }
 
 /*section four*/
@@ -524,6 +529,7 @@ footer > div > a {
     font-size: 5.61rem;
     font-weight: 200;
     color: #62706b;
+    padding-left: 0rem;
   }
 
   .text-box-two {
@@ -598,28 +604,68 @@ footer > div > a {
 
   .section-three {
     position: relative;
+    border-top: 2px solid var(--color-black);
+    border-bottom: 2px solid var(--color-black);
   }
 
   .heading-container {
     bottom: 0px;
     left: 0px;
     top: auto;
+    font-size: 3.158rem;
+    z-index: 1;
+    font-family: 'Outfit Extralight';
+    font-weight: 200;
+    color: var(--color-white);
+    background-color: rgba(253, 161, 136, 0.5);
   }
+  .the-kit-heading {
+    font-size: 7.479rem;
+    z-index: 1;
+    font-family: 'Outfit Extralight';
+    font-weight: 200;
+    color: var(--color-white);
+    padding: 1rem 19rem 1rem 5rem;
+  }
+
   .the-kit {
-    height: 36rem;
+    height: 36.3rem;
     width: 100%;
   }
 
   .call-to-action-btn-three {
     position: absolute;
-    bottom: 2rem;
-    right: 2rem;
+    bottom: 0rem;
+    right: 0rem;
+    background-color: #518c77;
+    color: #ffcfc1;
+    font-size: 2.369rem;
+    height: 3rem;
     width: auto;
+    border: none;
+    padding: 0rem 3rem 0rem 3rem;
   }
 
   /* section four desktop - all u need in one place*/
+
+  .the-kit-offer h3 {
+    font-family: 'Outfit Extralight';
+    font-weight: 200;
+    color: var(--color-black);
+    font-size: 3.158rem;
+    padding: 0rem 3rem 1rem 3rem;
+  }
+
+  .the-kit-offer p {
+    font-family: 'Open Sans';
+    font-size: 1.125rem;
+    line-height: 150%;
+    font-weight: 400;
+    padding: 0rem 3rem 2rem 3rem;
+  }
   .section-four {
-    height: 25rem;
+    height: 24.938rem;
+    border-bottom: 2px solid var(--color-black);
   }
   .section-four article {
     display: flex;
@@ -628,7 +674,9 @@ footer > div > a {
   .desktop-img {
     display: block;
     width: 50%;
-    height: 25rem;
+    height: 24.938rem;
+    border-bottom: 2px solid var(--color-black);
+    border-right: 2px solid var(--color-black);
   }
 
   .the-kit-offer {
