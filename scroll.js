@@ -1,7 +1,7 @@
 //inspo: https://www.youtube.com/watch?v=FDCiM6JoPao&t=47s
 // https://stackoverflow.com/questions/2481350/how-can-i-get-the-scrollbar-position-with-javascript
 
-const items = document.querySelectorAll('.item-container');
+const items = document.querySelectorAll('.items');
 const scrollMenu = document.querySelector('.scrollmenu');
 const indicators = document.querySelector('.indicators');
 

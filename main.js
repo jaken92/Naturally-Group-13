@@ -1,4 +1,4 @@
-/* translation */ 
+/* translation */
 
 const swedish = document.querySelectorAll('.se');
 const english = document.querySelectorAll('.en');
