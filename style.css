@@ -142,7 +142,7 @@ img {
 
 .materials-content h2 {
   font-weight: 200;
-  font-family: 'Outfit';
+  font-family: 'Outfit extralight';
   font-size: 3.158rem;
   line-height: 3rem;
   padding: 3rem 3rem 1.5rem 1rem;
@@ -151,13 +151,13 @@ img {
 .materials-content h3 {
   font-size: 2.369;
   font-weight: 200;
-  font-family: 'Outfit';
+  font-family: 'Outfit Extralight';
   line-height: 120%;
 }
 .materials-content p {
   font-size: 1.125rem;
   font-weight: 400;
-  font-family: 'Outfit';
+  font-family: 'Outfit Extralight';
   line-height: 150%;
 }
 
@@ -426,8 +426,7 @@ img {
   position: relative;
   aspect-ratio: 1 / 1;
 }
-.checkers > div > h2,
-h3 {
+.checkers > div > h2 {
   font-size: 2rem;
 }
 .checkers > div img {
@@ -566,8 +565,8 @@ footer > div > a {
   }
   .materials-content h2 {
     background-color: #ffcfc1;
-    font-size: 5.61rem;
-    font-family: 'Outfit';
+    font-size: 5.61rem !important;
+    font-family: 'Outfit Extralight';
     font-weight: 200;
     line-height: 5rem;
     color: #3f3f3e;
@@ -576,8 +575,8 @@ footer > div > a {
   }
 
   .materials-content h3 {
-    font-size: 2.369;
-    font-family: 'Outfit';
+    font-size: 2.369rem !important;
+    font-family: 'Outfit Extralight';
     line-height: 120%;
     font-weight: 200;
     padding: 1rem 1rem 1rem 1rem;
