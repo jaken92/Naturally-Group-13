@@ -59,6 +59,10 @@ img {
   color: #3f3f3e;
   font-weight: 200;
 }
+
+.company-name h2 {
+  color: #3f3f3e;
+}
 .company-vision {
   font-size: 1.848rem;
   margin-top: 1rem;
