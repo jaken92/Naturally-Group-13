@@ -46,6 +46,8 @@ img {
 
 /*section-one presentation*/
 .section-one-right {
+  border-left: 2px solid var(--color-black);
+  border-bottom: 2px solid var(--color-black);
   height: 24.5rem;
   background-color: #fcefde;
 }
@@ -93,6 +95,8 @@ img {
 /*section-two our vision*/
 
 .backpack-img {
+  border-left: 2px solid var(--color-black);
+  border-bottom: 2px solid var(--color-black);
   width: 100%;
   display: block;
 }
@@ -101,13 +105,17 @@ img {
   background-color: #fda188;
   padding: 2rem 0rem 0.5rem 1.5rem;
 }
-
+.our-vision {
+  border-bottom: 2px solid var(--color-black);
+}
 .heading-box-two h2 {
+  padding-left: 20%;
   font-size: 3.158rem;
   font-weight: 200;
   color: #3f3f3e;
 }
 .text-box-two {
+  border-top: 2px solid var(--color-black);
   background-color: #fcefde;
   padding: 1.5rem 1.5rem 1.5rem 1.5rem;
 }
@@ -116,6 +124,8 @@ img {
   font-size: 1.125rem;
   line-height: 150%;
   font-weight: 400;
+  width: 80%;
+  padding-left: 20%;
 }
 
 /*materials-section*/

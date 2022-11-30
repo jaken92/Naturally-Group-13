@@ -101,6 +101,10 @@
     z-index: 1;
     background-color: #556f64;
     color: #fda188;
+    left: 8%;
+    top: 30%;
+    right: 50%;
+    opacity: 0.8;
   }
   .travel-two {
     display: flex;
