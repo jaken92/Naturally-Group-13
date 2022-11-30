@@ -28,6 +28,10 @@
     right: unset;
     font-size: 3rem;
   }
+  .carousel {
+    border-top: 2px solid var(--color-black);
+    border-bottom: 2px solid var(--color-black);
+  }
   .call-to-action-btn-mobile {
     display: none;
   }
@@ -38,12 +42,17 @@
     right: 0rem;
   }
   .shop-wrapper {
-    margin: 6rem 0;
     display: grid;
-    grid-template-columns: 0.8fr 2fr;
+    grid-template-columns: 1fr 2fr;
   }
   .desktop-shop {
-    margin: 0rem 8rem;
+    border: 2px solid var(--color-black);
+  }
+  .flex-h2 {
+    border-bottom: 2px solid var(--color-black);
+    display: grid;
+    padding-bottom: 15%;
+    padding-left: 10%;
   }
   .desktop-shop :is(p, h3) {
     display: flex;
