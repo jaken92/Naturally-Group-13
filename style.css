@@ -105,8 +105,6 @@ img {
   background-color: #fda188;
   padding: 2rem 0rem 0.5rem 1.5rem;
 }
-.our-vision {
-}
 .heading-box-two h2 {
   font-size: 3.158rem;
   font-weight: 200;
@@ -237,53 +235,26 @@ img {
   padding: 0px;
   display: block;
 }
-.kit-addition-desktop {
-  display: none;
-}
-.clock-one {
-  display: none;
-}
-
-/*
-.scroll-img {
-  object-fit: cover;
+/*kit-addition-section*/
+.sweat-suit-image-wrapper {
   width: 100%;
 }
-.wrapper .scrollmenu-mobile .item-container {
-  scroll-snap-align: start;
+.sweat-suit-image-wrapper img {
+  width: inherit;
 }
-*/
-/*kit-addition-section*/
-
-.kit-addition-mobile {
-  margin-top: 2rem;
-}
-.sweat-suit {
-  display: none;
-}
-
 .text-overlay {
   position: absolute;
-  background-color: #a9a9a980;
+  background-color: var(--color-primary);
+  opacity: 0.8;
   right: 0;
   font-size: 3rem;
 }
-.call-to-action-btn-mobile {
-  margin-top: 2rem;
-  margin-bottom: 8rem;
-  display: block;
-  background-color: #818181;
-  color: #fff;
-  font-size: 2.375rem;
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+.text-overlay h2 {
+  color: var(--color-white);
 }
 .call-to-action-btn {
-  background-color: #818181;
-  color: #fff;
+  background-color: var(--color-button);
+  color: var(--color-white);
   font-size: 2.375rem;
   height: 3rem;
   display: flex;

@@ -8,29 +8,36 @@
   .bark-pattern {
     height: 6em;
   }
-  .kit-addition-desktop {
-    display: block;
-    margin: 4rem;
-  }
-  .kit-addition-mobile {
-    display: none;
-  }
-  .scrollmenu-mobile {
-    display: none;
-  }
-  .sweat-suit {
+  .sweat-suit-image-wrapper {
     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: var(--color-secondary);
   }
-  .item-container {
-    display: contents;
+  .sweat-suit-image-wrapper img {
+    width: unset;
   }
   .text-overlay {
-    position: absolute;
-    background-color: #a9a9a980;
     left: 0;
     right: unset;
-    font-size: 3rem;
   }
+  .kit-addition {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .h3-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--color-primary);
+  }
+  .call-to-action-btn {
+    width: 80%;
+    margin-left: 10%;
+  }
+
+  /* SHOP SECTION */
   .carousel-wrapper {
     background-color: var(--color-secondary);
     display: flex;
@@ -44,11 +51,9 @@
     width: 80%;
     border: 2px solid var(--color-black);
   }
-  .call-to-action-btn-mobile {
-    display: none;
-  }
   .flickity-prev-next-button {
     top: 105% !important;
+    z-index: 1 !important;
   }
   .flickity-page-dots {
     bottom: -40px !important;
@@ -59,11 +64,10 @@
     background: var(--color-white) !important;
     bottom: 5px !important;
   }
-  .call-to-action-btn {
-    position: absolute;
-    width: 20%;
-    height: 6%;
-    right: 0rem;
+  .section-five {
+    height: 40rem;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
   }
   .shop-wrapper {
     display: grid;
