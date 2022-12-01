@@ -73,18 +73,19 @@
   }
   .desktop-shop {
     border: 2px solid var(--color-black);
+    height: 45rem;
   }
   .flex-h2 {
     border-bottom: 2px solid var(--color-black);
-    display: grid;
     padding-bottom: 15%;
-    padding-left: 10%;
+    padding-left: 25%;
   }
   .desktop-shop :is(p, h3) {
     display: flex;
-    margin-top: 8rem;
-    padding-left: 10%;
-    padding-right: 10%;
+    margin-top: 4rem;
+    padding: 1%;
+    margin-left: 20%;
+    margin-right: 30%;
   }
   .shop-item button {
     right: 0;
