@@ -331,14 +331,25 @@ img {
 .travel-question {
   position: absolute;
   background-color: var(--color-secondary);
-  right: 0;
-  font-size: 3rem;
+  font-size: 1.5rem;
+  margin: 10%;
+  top: 5%;
+  opacity: 0.9;
+}
+.travel-question h2{
+  color: var(--color-primary);
 }
 .travel-statement {
   margin: 1rem 0 1rem 2rem;
 }
+.travel-two h3{
+  font-size: 1.85rem;
+  font-weight: 200;
+}
 .travel-guide p {
-  margin: 0 2rem 1rem 2rem;
+  margin: 0 2rem 4rem 2rem;
+  font-size: 1rem;
+  font-weight: 400;
 }
 .label-container {
   background: var(--color-alt-primary);
