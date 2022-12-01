@@ -107,7 +107,9 @@
   .shop-item h2 {
     left: unset;
   }
-
+  .shop-item.is-selected img {
+    transform: scale(1);
+  }
   .desktop-shop h3 {
     background-color: var(--color-primary);
   }
