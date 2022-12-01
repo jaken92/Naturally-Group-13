@@ -379,8 +379,6 @@ button:active {
   height: 3rem;
   width: 60%;
   font-size: 2rem;
-  background-color: var(--color-button);
-  color: var(--color-alt-primary);
 }
 .flickity-page-dots {
   bottom: -40px !important;
