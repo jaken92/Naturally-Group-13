@@ -241,10 +241,7 @@ img {
 .the-kit-offer h3 {
   font-size: 2rem;
 }
-.section-five {
-  display: flex;
-  flex-direction: column;
-}
+
 .border-img {
   width: 100%;
   height: 4rem;
@@ -260,18 +257,23 @@ img {
 }
 .sweat-suit-image-wrapper img {
   width: inherit;
+  height: 26rem;
 }
-/*
-.text-overlay {
-  position: absolute;
-  background-color: rgba(98, 112, 107, 0.5);
-  top: 0px;
-  right: 0px;
-  padding: 0rem 1rem 0rem 1rem;
-  font-size: 3rem;
+.section-five {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 50rem;
 }
-*/
-
+.h3-wrapper h3 {
+  margin-left: 8%;
+  font-size: 1.875rem;
+  font-weight: 200;
+}
+.kit-addition p {
+  margin: 8%;
+  line-height: 1.5rem;
+}
 .text-overlay {
   position: absolute;
   background-color: rgba(253, 161, 136, 0.5);
@@ -279,7 +281,6 @@ img {
   font-size: 3rem;
   padding: 0rem 1rem 0rem 1rem;
 }
-
 .text-overlay h2 {
   color: var(--color-white);
   font-size: 3.158rem !important;
@@ -288,11 +289,10 @@ img {
 .call-to-action-btn {
   background-color: var(--color-button);
   color: var(--color-white);
-  font-size: 2.375rem;
-  height: 3rem;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  font-size: 2rem;
+  margin-bottom: 0%;
+  font-weight: 200;
+  height: 4rem;
   width: 100%;
 }
 
@@ -327,6 +327,16 @@ img {
   font-weight: 200;
   z-index: 0;
   background-color: var(--color-primary);
+  left: 20%;
+}
+.flex-h2 {
+  background-color: var(--color-secondary);
+  font-size: 2.5rem;
+}
+.flex-h2 h2 {
+  color: black;
+  font-weight: 200;
+  margin-left: 4%;
 }
 .carousel-wrapper {
   background-color: var(--color-secondary);
@@ -348,10 +358,13 @@ img {
 .shop-item button {
   position: absolute;
   z-index: 0;
+  bottom: 0;
+  left: 20%;
+  height: 3rem;
+  width: 60%;
+  font-size: 2rem;
   background-color: var(--color-button);
   color: var(--color-alt-primary);
-  right: 20%;
-  bottom: 2rem;
 }
 .flickity-page-dots {
   bottom: -40px !important;

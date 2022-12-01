@@ -80,9 +80,14 @@
     height: 45rem;
   }
   .flex-h2 {
+    background-color: var(--color-background);
+    display: grid;
     border-bottom: 2px solid var(--color-black);
     padding-bottom: 15%;
-    padding-left: 25%;
+    padding-left: 20%;
+  }
+  .flex-h2 h2 {
+    color: var(--color-black);
   }
   .desktop-shop :is(p, h3) {
     display: flex;
@@ -94,10 +99,15 @@
   .shop-item button {
     right: 0;
     bottom: 0;
+    left: unset;
     width: 12rem;
     height: 3rem;
     font-size: 2.5rem;
   }
+  .shop-item h2 {
+    left: unset;
+  }
+
   .desktop-shop h3 {
     background-color: var(--color-primary);
   }
