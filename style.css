@@ -314,15 +314,20 @@ img {
 }
 .click-mobile {
   background-color: var(--color-primary);
-  padding:4%;
+  padding: 4%;
   font-size: xx-large;
   font-weight: 200;
 }
+.shop-item {
+  display: flex;
+  justify-content: flex-start;
+}
 .shop-item h2 {
   position: absolute;
-  z-index: 1;
-  background-color: #a9a9a980;
-  left: 20%;
+  font-size: 3rem !important;
+  font-weight: 200;
+  z-index: 0;
+  background-color: var(--color-primary);
 }
 .carousel-wrapper {
   background-color: var(--color-secondary);
@@ -336,15 +341,16 @@ img {
   background-color: var(--color-background);
   align-self: center;
   justify-self: center;
-  width: 80%;
+  width: 75%;
 }
 .flickity-prev-next-button {
-display: none;
+  display: none;
 }
 .shop-item button {
   position: absolute;
-  z-index: 1;
+  z-index: 0;
   background-color: var(--color-button);
+  color: var(--color-alt-primary);
   right: 20%;
   bottom: 2rem;
 }
