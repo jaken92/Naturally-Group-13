@@ -51,17 +51,16 @@
 
   /* SHOP SECTION */
   .flickity-prev-next-button {
+    display: unset;
     top: 105% !important;
     z-index: 1 !important;
   }
-  .flickity-page-dots {
-    bottom: -40px !important;
+  .carousel-wrapper {
+    border-top: 2px solid var(--color-black);
+    height: unset;
   }
-  .flickity-page-dots .dot {
-    width: 20px !important;
-    height: 20px !important;
-    background: var(--color-white) !important;
-    bottom: 5px !important;
+  .carousel {
+    border: 2px solid var(--color-black);
   }
   .section-five {
     height: 36rem;
