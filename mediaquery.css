@@ -8,6 +8,11 @@
   .bark-pattern {
     height: 6em;
   }
+  .section-five {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 45rem;
+  }
   .sweat-suit-image-wrapper {
     display: flex;
     justify-content: center;
@@ -18,7 +23,6 @@
   .sweat-suit-image-wrapper img {
     width: unset;
   }
-
   .text-overlay {
     position: absolute;
     background-color: rgba(253, 161, 136, 0.5);
@@ -27,22 +31,22 @@
     width: 50%;
     text-align: left;
   }
-
   .text-overlay h2 {
     color: var(--color-white);
     font-size: 5.61rem !important;
     font-weight: 200;
   }
-
   .kit-addition {
     display: grid;
-    grid-template-rows: 1fr 1fr 1fr;
   }
   .h3-wrapper {
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: var(--color-primary);
+  }
+  .h3-wrapper h3 {
+    font-weight: 200;
   }
   .call-to-action-btn {
     width: 80%;
@@ -61,11 +65,6 @@
   }
   .carousel {
     border: 2px solid var(--color-black);
-  }
-  .section-five {
-    height: 36rem;
-    display: grid;
-    grid-template-columns: 2fr 1fr;
   }
   .shop-wrapper {
     display: grid;
