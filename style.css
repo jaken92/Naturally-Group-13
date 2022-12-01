@@ -139,6 +139,7 @@ img {
   font-size: 3.158rem;
   line-height: 3rem;
   padding: 3rem 3rem 1.5rem 1rem;
+  border-bottom: 2px solid black;
 }
 
 .materials-content h3 {
@@ -152,6 +153,7 @@ img {
   font-weight: 400;
   font-family: 'Outfit Extralight';
   line-height: 150%;
+  border-bottom: 2px solid black;
 }
 
 .section-materials :is(h3, p) {
@@ -243,15 +245,32 @@ img {
 .sweat-suit-image-wrapper img {
   width: inherit;
 }
+/*
 .text-overlay {
   position: absolute;
-  background-color: var(--color-primary);
-  opacity: 0.8;
-  right: 0;
+  background-color: rgba(98, 112, 107, 0.5);
+  top: 0px;
+  right: 0px;
+  padding: 0rem 1rem 0rem 1rem;
   font-size: 3rem;
 }
+*/
+
+
+.text-overlay {
+  position: absolute;
+  background-color: rgba(253, 161, 136, 0.5);
+  right: 0;
+  font-size: 3rem;
+  padding: 0rem 1rem 0rem 1rem;
+}
+
+
+
 .text-overlay h2 {
   color: var(--color-white);
+  font-size: 3.158rem !important;
+  font-weight: 200;
 }
 .call-to-action-btn {
   background-color: var(--color-button);
@@ -498,7 +517,7 @@ footer > div:first-of-type {
 
   .heading-box-two {
     padding: 8rem 0rem 5rem 3.5rem;
-    border-bottom: 1px solid black;
+    border-bottom: 2px solid black;
   }
 
   .heading-box-two h2 {

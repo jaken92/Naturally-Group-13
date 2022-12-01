@@ -18,10 +18,22 @@
   .sweat-suit-image-wrapper img {
     width: unset;
   }
+
   .text-overlay {
+    position: absolute;
+    background-color: rgba(253, 161, 136, 0.5);
     left: 0;
-    right: unset;
+    padding: 0rem 1rem 0rem 3rem;
+    width: 50%;
+    text-align: left;
   }
+  
+  .text-overlay h2 {
+    color: var(--color-white);
+    font-size: 5.61rem !important;
+    font-weight: 200;
+  }
+
   .kit-addition {
     display: grid;
     grid-template-rows: 1fr 1fr 1fr;
