@@ -607,7 +607,7 @@ footer > div:first-of-type {
   .heading-box-two h2 {
     font-size: 5.61rem;
     font-weight: 200;
-    color: #62706b;
+    color: var(--color-black);
     padding-left: 0rem;
   }
 
