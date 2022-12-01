@@ -112,6 +112,8 @@
   }
   .desktop-shop h3 {
     background-color: var(--color-primary);
+    font-size: 2.5rem;
+    margin-top: 2rem;
   }
   .click-mobile {
     display: none;
