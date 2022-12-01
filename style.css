@@ -681,6 +681,7 @@ footer > div:first-of-type {
 
   .section-materials :is(h2, h3, p) {
     margin: 0rem;
+    padding-left: 2rem;
   }
 
   .last-p-materials {
