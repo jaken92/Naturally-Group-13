@@ -50,19 +50,6 @@
   }
 
   /* SHOP SECTION */
-  .carousel-wrapper {
-    background-color: var(--color-secondary);
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    border-top: 2px solid var(--color-black);
-  }
-  .carousel {
-    background-color: var(--color-background);
-    align-self: center;
-    width: 80%;
-    border: 2px solid var(--color-black);
-  }
   .flickity-prev-next-button {
     top: 105% !important;
     z-index: 1 !important;

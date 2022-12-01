@@ -314,19 +314,39 @@ img {
 }
 .click-mobile {
   background-color: var(--color-primary);
+  padding:4%;
+  font-size: xx-large;
+  font-weight: 200;
 }
 .shop-item h2 {
   position: absolute;
   z-index: 1;
   background-color: #a9a9a980;
-  margin-top: 1.5rem;
+  left: 20%;
+}
+.carousel-wrapper {
+  background-color: var(--color-secondary);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border-top: 2px solid var(--color-black);
+}
+.carousel {
+  background-color: var(--color-background);
+  align-self: center;
+  width: 80%;
+  height: 80%;
+  border: 2px solid var(--color-black);
 }
 .shop-item button {
   position: absolute;
   z-index: 1;
-  background-color: #818181;
-  right: 2rem;
+  background-color: var(--color-button);
+  right: 20%;
   bottom: 2rem;
+}
+.flickity-page-dots{
+bottom:7% !important;
 }
 
 /* TRAVEL GUIDE */
@@ -347,11 +367,13 @@ img {
   background-color: var(--color-secondary);
   font-size: 1.5rem;
   margin: 10%;
-  top: 5%;
+  top: 3%;
   opacity: 0.9;
+  padding: 10px;
 }
 .travel-question h2 {
   color: var(--color-primary);
+  font-weight: 200;
 }
 .travel-statement {
   margin: 1rem 0 1rem 2rem;
