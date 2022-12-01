@@ -24,6 +24,7 @@
   --color-white: #ffedea;
   --color-button: #74a392;
   --footer-color: #659987;
+  --color-btnhover: #2eb786;
 }
 body {
   background-color: var(--color-background);
@@ -31,13 +32,31 @@ body {
 h1,
 h2,
 h3,
-h4,
-button {
+h4 {
   font-family: 'Outfit Extralight';
   color: var(--color-black);
 }
 img {
   object-fit: cover;
+}
+
+button {
+  font-family: 'Outfit Extralight';
+  cursor: pointer;
+  color: var(--color-white);
+  background-color: var(--color-button);
+  border: none;
+  z-index: 5 !important;
+}
+
+button:hover {
+  background-color: var(--color-btnhover);
+  color: var(--color-alt-primary);
+}
+
+button:active {
+  background-color: var(--color-btnhover);
+  color: var(--color-white);
 }
 
 /*links*/
@@ -207,8 +226,6 @@ img {
 }
 
 .call-to-action-btn-three {
-  background-color: #518c77;
-  color: #ffcfc1;
   font-size: 1.848rem;
   height: 3rem;
   display: flex;
@@ -216,7 +233,6 @@ img {
   align-items: center;
   width: 100%;
   padding: 2rem 2.5rem 2rem 2.5rem;
-  border: none;
   font-family: 'Outfit ExtraLight';
 }
 
@@ -286,8 +302,6 @@ img {
   font-weight: 200;
 }
 .call-to-action-btn {
-  background-color: var(--color-button);
-  color: var(--color-white);
   font-size: 2.375rem;
   height: 3rem;
   display: flex;
@@ -347,9 +361,6 @@ img {
 }
 .shop-item button {
   position: absolute;
-  z-index: 0;
-  background-color: var(--color-button);
-  color: var(--color-alt-primary);
   right: 20%;
   bottom: 2rem;
 }
@@ -438,8 +449,6 @@ img {
   font-size: larger;
 }
 .travel-guide button {
-  background-color: #518c77;
-  color: var(--color-white);
   font-size: 1.5rem;
   height: 3rem;
   margin-top: 2rem;

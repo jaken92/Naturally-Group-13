@@ -61,6 +61,7 @@ a {
 
 .lang-btn:hover {
   color: #fda188;
+  background: none !important;
 }
 
 .nav-link:hover {
