@@ -329,13 +329,10 @@ img {
   z-index: 0;
 }
 .travel-question {
-  background-color: var(--color-secondary);
-  color: var(--color-primary);
-  opacity: 0.9;
   position: absolute;
-  font-size: 2rem;
-  margin: 10%;
-  margin-top: 15%;
+  background-color: var(--color-secondary);
+  right: 0;
+  font-size: 3rem;
 }
 .travel-statement {
   margin: 1rem 0 1rem 2rem;

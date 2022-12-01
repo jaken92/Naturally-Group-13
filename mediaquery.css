@@ -114,17 +114,22 @@
     z-index: 0;
     object-fit: cover;
     width: 100%;
+    height: 46rem;
   }
   .travel-question {
     position: absolute;
-    z-index: 1;
     background-color: var(--color-secondary);
-    color: var(--color-primary);
-    left: 8%;
+    font-size: 3rem;
+    margin: 5%;
+    right: 35%;
     top: 30%;
-    right: 50%;
+    line-height: 5rem;
+    padding:1%;
     opacity: 0.9;
-    margin: unset;
+  }
+  .travel-question h2{
+    font-weight: 200;
+    color: var(--color-primary);
   }
   .travel-two {
     display: flex;
