@@ -11,9 +11,9 @@
   .sweat-suit-image-wrapper {
     display: flex;
     justify-content: center;
-    align-items: center;
+    align-items: flex-end;
     height: 100%;
-    background-color: var(--color-secondary);
+    background-color: #667973;
   }
   .sweat-suit-image-wrapper img {
     width: unset;
@@ -65,7 +65,7 @@
     bottom: 5px !important;
   }
   .section-five {
-    height: 40rem;
+    height: 36rem;
     display: grid;
     grid-template-columns: 2fr 1fr;
   }

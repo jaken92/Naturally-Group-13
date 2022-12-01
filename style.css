@@ -238,6 +238,7 @@ img {
 /*kit-addition-section*/
 .sweat-suit-image-wrapper {
   width: 100%;
+  background-color: var(--color-tertiary);
 }
 .sweat-suit-image-wrapper img {
   width: inherit;
